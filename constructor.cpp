@@ -1,0 +1,63 @@
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// class Student {
+//     public : 
+//     int roll;
+//     int cls;
+//     double gpa;
+
+
+//     // constructor 
+//     Student(int r, int c, double g) {
+//         roll = r;
+//         cls = c;
+//         gpa = g;
+
+//     }
+// };
+
+
+// int main(){
+//     Student rahim(101, 10, 4.00);
+//     Student karim(102, 10, 3.75);
+//     // karim.roll = 102;
+//     // karim.cls = 10;
+//     // karim.gpa = 3.75;
+
+//     cout << rahim.roll << " " << rahim.cls << " " << rahim.gpa << endl;
+//     cout << karim.roll << " " << karim.cls << " " << karim.gpa << endl;
+//     return 0;
+// }
+
+#include<bits/stdc++.h>
+using namespace std;
+
+class Student {
+    public : 
+    int roll;
+    int cls;
+    double gpa;
+
+
+    // constructor 
+    // Student(int r, int c, double g) {
+    //     roll = r;
+    //     cls = c;
+    //     gpa = g;
+
+    // }
+};
+
+
+int main(){
+    Student rahim;
+    Student karim;
+    cin >> rahim.roll >> rahim.cls >> rahim.gpa;
+    cin >> karim.roll >> karim.cls >> karim.gpa;
+
+
+    cout << rahim.roll << " " << rahim.cls << " " << rahim.gpa << endl;
+    cout << karim.roll << " " << karim.cls << " " << karim.gpa << endl;
+    return 0;
+}
